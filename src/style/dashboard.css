@@ -1,0 +1,35 @@
+.dashboardMain .header {
+    display: inline-grid;
+    justify-content: center;
+    width: 700px;
+}
+
+.dashboardMain .header .row .box {
+    background-color: lightgrey;
+    width: 200px;
+    height: 200px;
+    margin: 50px 10px 10px 20px;
+}
+
+.box.list {
+    float: left;
+}
+
+.box.group {
+    float: right;
+}
+
+.dashboardMain .header .row .box img {
+    margin: 10px 10px 10px 10px;
+    height: 50%;
+    width: 50%;
+}
+
+.dashboardMain .header .row .box h1 {
+    margin: 10px 10px 10px 10px;
+    color: black;
+}
+
+.dashboardMain .header .row .inactive h1 {
+    color: grey;
+}
