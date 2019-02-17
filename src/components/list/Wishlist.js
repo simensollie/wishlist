@@ -51,8 +51,8 @@ class Wishlist extends Component {
             console.log('this.state.value is empty')
         }
 
-        console.log(this.state.value);
-        console.log(this.state.items);
+        //console.log(this.state.value);
+        //console.log(this.state.items);
 
         e.preventDefault();
     }

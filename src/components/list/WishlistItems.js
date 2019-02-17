@@ -18,8 +18,8 @@ class WishlistItems extends Component {
     }
     
     render() {
-        var todoEntries = this.props.entries;
-        var listItems = todoEntries.map(this.createTasks);
+        var listEntries = this.props.entries;
+        var listItems = listEntries.map(this.createTasks);
     
         return (
         <ul className="theList">

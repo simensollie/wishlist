@@ -36,17 +36,17 @@ class Dashboard extends Component {
                     </div>
                     <div className="box group inactive" id="newGroup">
                         <img src={require('../../resources/icons/messages-people-person-bubble-oval.png')} />
-                        <h1>inactive</h1>
+                        <h1>New group</h1>
                     </div>
                 </div>
                 <div className="row">
                     <div className="box list inactive" id="myLists">
                         <img src={require('../../resources/icons/insurance-card.png')} />
-                        <h1>inactive</h1>
+                        <h1>My lists</h1>
                     </div>
                     <div className="box group inactive" id="myGroups">
                         <img src={require('../../resources/icons/human-resources-search-employees.png')} />
-                        <h1>inactive</h1>
+                        <h1>My groups</h1>
                     </div>
                 </div>
             </div>
